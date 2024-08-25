@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #EFF68B 10%, #E3E3C7 60%, #EDF577 100%); /* Adjusted gradient to match Desktop 1 */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #f7f9ba;
+    padding: 10px; /* Adjusted padding for smaller header */
+    height: 68px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 5px solid #d1c099;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #5b4a2e;
+    font-family: 'Wendy One', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #d1c099;
+    margin-left: 20px; 
+    text-align: center;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Corrected alignment */
+    padding: 30px 100px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.content-left {
+    flex: 1;
+    max-width: 70%;
+    margin-right: 40px; /* Added margin to align properly */
+}
+
+.content-left p {
+    font-size: 14px;
+    color: #3d3d3d;
+    line-height: 1.5;
+    text-align: justify; /* Justified text */
+}
+
+.images {
+    margin-top: 20px;
+}
+
+.images img {
+    width: 100%;
+    max-width: 900px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.consult-form {
+    flex: 1;
+    background-color: #f4f4cc;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.consult-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #8b5f20;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+.consult-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+
+.consult-form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: #3d3d3d;
+}
+
+.consult-form button {
+    background-color: #8b5f20;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 40%;
+    font-family: 'Verdana', sans-serif;
+    margin-top: 25px; /* Adds space between the button and input fields */
+    margin-left: 95px;
+    text-align: center; /* Ensures text inside the button is centered */
+}
+
+.consult-form button:hover {
+    background-color: #704c18;
+}
